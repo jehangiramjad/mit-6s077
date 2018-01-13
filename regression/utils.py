@@ -7,7 +7,7 @@ from sklearn import metrics
 from sklearn import linear_model
 import statsmodels.api as sm
 
-from pandas.plotting import scatter_matrix
+from pandas.tools.plotting import scatter_matrix
 
 def drop_columns(dataframe, columns):
 
